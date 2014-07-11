@@ -44,11 +44,12 @@ article {
     address {
         margin:0;
         font-size:0.9em;
-        max-height:48px;
+        /*max-height:48px;*/
         
-        p {
+        div .about{
             margin:0;
             display:inline-block;
+            float: right;
         }
 
         img {
@@ -57,7 +58,8 @@ article {
             height: 64px;
             margin: 0 20px 0 0;
             display: inline-block;
-            margin-top: -28px;
+            /*margin-top: -28px;*/
+            float: left;
         }       
         
         .follow {

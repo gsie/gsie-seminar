@@ -1,10 +1,10 @@
 ---
 layout: base
 ---
-{% if page.cover_photo %}
+{% if page.cover_image %}
 <div class="article-cover">
     <div>
-        <img src="/images/{{ page.cover_photo }}" class="image">
+        <img src="/images/{{ page.cover_image }}" class="image">
     </div>
 </div>
 {% else %}
@@ -24,9 +24,7 @@ layout: base
 
         <section>
             {{ content }}
-            {% if page.social %}
-                {% include _social.html %}
-            {% endif %}
+            {% include _social.html %}
             {% if page.paper.paperlink %}<br>You can find the full paper here: <strong><a rel="paper" href="{{ page.paper.paperlink }}" title="{{ page.paper.title }}" target="_blank">{{ page.paper.title }}</a></strong>{% endif %}
                 
         </section>
@@ -34,7 +32,7 @@ layout: base
         <footer>
             <address>
                 {% if page.author.image %}<img src="/images/{{ page.author.image }}">{% endif %}
-                <div class="about">Written by <strong><a rel="author" href="{{ page.author.website }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong>. {% if page.author.twitter %}You can follow {% if page.author.gender == "male" %}him{%endif%}{% if page.author.gender == "female" %}her{%endif%} on twitter: <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author.twitter }}" target="_blank">@{{ page.author.twitter }}</a></strong>{%endif%}<br>
+                <div class="about">Written by <strong><a rel="author" href="{{ page.author.website }}" title="{{ page.author_name }}" target="_blank">{{ page.author.name }}</a></strong>. {% if page.author.twitter %}You should follow {% if page.author.gender == "male" %}him{%endif%}{% if page.author.gender == "female" %}her{%endif%} on twitter: <strong><a rel="author" href="https://twitter.com/{{ page.author.twitter }}" title="{{ page.author.twitter }}" target="_blank">@{{ page.author.twitter }}</a></strong>{%endif%}<br>
                 <span class="muted">{{ page.author.bio }}</span>
                 </div>
                 <div style="clear:both;"></div>
@@ -43,11 +41,9 @@ layout: base
         </footer>
 
         {% if site.info.disqus.shortname %}
-            {% if page.disqus %}
-                <section>
-                    {% include _disqus.html %}
-                </section>
-            {% endif %}        
+        <section>
+            {% include _disqus.html %}
+        </section>
         {% endif %}
     </div>
 </article>

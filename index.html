@@ -1,22 +1,30 @@
 ---
 layout: base
+cover_photo: blog-cover.jpg
+photo_credit: '<a href="https://www.flickr.com/photos/lim_lik_wei/5960796646/">Brandon LLW</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a>'
+
 ---
-<div class="blog-cover" style="background-image:url(/images/{{ site.inc.cover_image }});">
+<div class="blog-cover" style="{% if page.cover_photo %}background-image:url(/images/{{ page.cover_photo }});{% endif %} background-color:#498DE3;">
     
     <section>
         <div class="container">
-            <h1>{{ site.inc.title }}</h1>
-            {% if site.inc.subtitle %}<h3>{{ site.inc.subtitle }}</h3>{% endif %}
-        
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
-            {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
-            {% endif %}
-            <a href="/feed.xml" title="RSS Feed">
-                <i class="icon icon-rss"></i>
-            </a>
+            <h1>{{ site.info.title }}</h1>
+            {% if site.info.subtitle %}<h3>{{ site.info.subtitle }}</h3>{% endif %}
+        	
+        	<div class="connect">
+	            {% if site.info.twitter %}
+	            <a href="https://twitter.com/{{ site.info.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
+	            {% endif %}
+	            {% if site.info.facebook %}
+	            <a href="http://facebook.com/{{ site.info.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
+	            {% endif %}
+	            <a href="/feed.xml" title="RSS Feed">
+	                <i class="icon icon-rss"></i>
+	            </a>
+				{% if site.info.calendar %}
+	            <a href="https://www.google.com/calendar/render?cid={{ site.info.calendar }}" title="Subscribe to Google Calendar" target="_blank"><i class="icon icon-calendar"></i></a>
+	            {% endif %}
+            </div>
         </div>
     </section>
 </div>
@@ -31,7 +39,7 @@ layout: base
             <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
             <p>{{ post.excerpt }}</p>
             <div class="meta">
-                Written By <address>{{ post.author.name }}</address> &mdash;
+                By <address>{{ post.author.name }}</address> &mdash;
                 <time pubdate datetime="{{ post.date | date: "%Y-%d-%B" }}" title="{{ post.date | date: "%B %d, %Y" }}">{{ post.date | date: "%B %d, %Y" }}</time>
             </div>
         </div>

@@ -1,0 +1,38 @@
+---
+layout: base
+---
+{% if page.cover_photo %}
+<div class="article-cover">
+    <div>
+        <img src="/images/{{ page.cover_photo }}" class="image">
+    </div>
+</div>
+{% endif %}
+<article>
+
+    <div class="container">
+        <header>
+            <h1 class="title">{{ page.title }}</h1>
+            {% if page.subtitle %}<h2 class="subtitle">{{ page.subtitle }}</h2>{% endif %}
+        </header>
+
+        <section>
+            {{ content }}
+        </section>
+
+        {% if site.info.disqus.shortname %}
+            {% if page.disqus %}
+                <section>
+                    {% include _disqus.html %}
+                </section>
+            {% endif %}        
+        {% endif %}
+
+        {% if page.social %}
+        <footer>
+            {% include _social.html %}
+        </footer>
+        {% endif %}
+        
+    </div>
+</article>

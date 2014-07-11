@@ -1,18 +1,9 @@
 ---
-layout: post
-
-title: Jekyll Incorporated Features
-subtitle: "What's in the box"
+layout: page
+title: About GSIE
+subtitle: "Graduate Students in International Economics."
 cover_image: blog-cover.jpg
-
-excerpt: "Incorporated provides a great typography, responsive design, author details, semantic markup and more."
-
-author:
-  name: Karri Saarinen
-  twitter: karrisaarinen
-  gplus: 100687498195339762535 
-  bio: Co-founder, Design
-  image: ks.png
+draft: true
 ---
 
 Incorporated provides a great typography, responsive design, author details, semantic markup and more.

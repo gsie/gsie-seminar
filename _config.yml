@@ -1,47 +1,49 @@
-inc:
+info:
   # Blog Information
-  title:        "Jekyll Incorporated"
-  subtitle:     "Modern Jekyll based blog for companies"
-  cover_image:  blog-cover.jpg
+  title:        "GSIE Blog"
+  subtitle:     "Graduate Students in International Economics blogging about their research"
+  #cover_photo:  blog-cover.jpg
+  #photo_credit: '<a href="https://www.flickr.com/photos/lim_lik_wei/5960796646/">Brandon LLW</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a>'
   logo:         logo.png
-  
-  # Company information
-  company:      Incorporated
-  url:          http://sendtoinc.com/
-  facebook:     sendtoinc
-  twitter:      sendtoinc
-  gplus:        '101183822199340201470'
-  about_link:   https://sendtoinc.com/about/
-  
-  # Product Information
-  product_link: http://incorporated.sendtoinc.com/
-  tagline:      "Get a modern blog for your company"
-  
+
+  # General information
+  company:      Université Paris 1 Panthéon-Sorbonne and Paris School of Economics
+  url:          http://www.gsie-seminar.org #http://gsie.github.io/
+  #facebook:     sendtoinc
+  twitter:      gsieseminar
+  calendar:     paristradeseminar@gmail.com
+  #gplus:        '101183822199340201470'
+  about_link:   /about/
+
+  # Seminar Information
+  seminar_link: /seminar/
+  #tagline:      "Get a modern blog for your company"
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
-  
+    shortname:  "gsieseminar"
+
   # Sharing settings
   sharing:
-    twitter:    false
-    facebook:   false
+    twitter:    true
+    facebook:   true
     gplus:      false
-    hn:         false
-    
-  
+    #hn:         false
+
+
  # Analytics     
   analytics:
-    google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
+    google: UA-51636783-1 # Add tracking code in _includes/_google-analytics.html
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:         http://incorporated.sendtoinc.com
+url:         http://www.gsie-seminar.org #http://gsie.github.io
 source:      .
 destination: ./_site
 plugins:     ./_plugins
