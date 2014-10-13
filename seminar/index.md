@@ -6,7 +6,7 @@ cover_photo: airplane.jpg
 photo_credit: '<a href="https://www.flickr.com/photos/lim_lik_wei/5960796646/">Brandon LLW</a> <a href="http://creativecommons.org/licenses/by-nc/2.0/">cc</a>'
 
 ---
-The GSIE Seminar is held on Mondays from 12:00 to 13:00 in room S19 (behind the main building) at the [Campus Maison des Sciences Economics](https://maps.google.fr/maps?q=Maison+des+Sciences+Économiques,+Paris&hl=fr&ie=UTF8&ll=48.834752,2.358933&spn=0.003309,0.009221&sll=48.834911,2.358874&sspn=0.003309,0.009221&hq=Maison+des+Sciences+Économiques,+Paris&t=m&z=18).
+The GSIE Seminar is held on Mondays from 12:00 to 13:00 in room S17 (behind the main building) at the [Campus Maison des Sciences Economics](https://maps.google.fr/maps?q=Maison+des+Sciences+Économiques,+Paris&hl=fr&ie=UTF8&ll=48.834752,2.358933&spn=0.003309,0.009221&sll=48.834911,2.358874&sspn=0.003309,0.009221&hq=Maison+des+Sciences+Économiques,+Paris&t=m&z=18).
 
 You can subscribe to the [GSIE Seminar and Paris Trade Seminar calendar here](https://www.google.com/calendar/render?cid=paristradeseminar@gmail.com).
 
