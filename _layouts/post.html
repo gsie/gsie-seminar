@@ -27,7 +27,10 @@ layout: base
             {% if page.social %}
                 {% include _social.html %}
             {% endif %}
-            {% if page.paper.paperlink %}<br>You can find the full paper here: <strong><a rel="paper" href="{{ page.paper.paperlink }}" title="{{ page.paper.title }}" target="_blank">{{ page.paper.title }}</a></strong>{% endif %}
+            {% if page.paper.paperlink %}<br>You can find the full paper here: <strong><a rel="paper" href="{{ page.paper.paperlink }}" title="{{ page.paper.title }}" target="_blank">{{ page.paper.title }}</a></strong>
+            {% else %}
+            <br>You can find more information about the paper here: <strong><a rel="paper" href="{{ page.author.website }}" title="{{ page.paper.title }}" target="_blank">{{ page.paper.title }}</a></strong>
+            {% endif %}
                 
         </section>
 
