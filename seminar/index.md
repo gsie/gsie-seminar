@@ -12,36 +12,48 @@ You can subscribe to the [GSIE Seminar and Paris Trade Seminar calendar here](ht
 
 ##Upcoming Seminars
 
-**October 20th, 2014 - MSE Room S19 (12:00-13:00)**<br>
+**October 20th, 2014 - MSE Room S17 (12:00-13:00)**<br>
 *[Elsa Leromain](http://www.parisschoolofeconomics.eu/en/leromain-elsa/)* (Paris School of Economics / Paris 1):<br>
 "Factor content of trade and intermediate goods".
 
-**November 10th, 2014 - MSE Room S19 (12:00-13:00)**<br>
+**November 10th, 2014 - MSE Room S17 (12:00-13:00)**<br>
 *[Anja Grujovic](http://www.unige.ch/gsem/iee/en/members/assistants/grujovic-anja/)* (University of Geneva):<br>
 "Trade and long term unemployment: a quantitative assessment".
 
-**November 17th, 2014 - MSE Room S19 (12:00-13:00)**<br>
+**November 17th, 2014 - MSE Room S17 (12:00-13:00)**<br>
 *[Thais Nuñez](http://www.parisschoolofeconomics.eu/fr/nunez-rocha-thais/)* (Paris School of Economics / Paris 1):<br>
 "International Waste Trade: The Impact of European Regulation on World Trade".
 
-**December 1st, 2014 - MSE Room S19 (12:00-13:00)**<br>
+**December 1st, 2014 - MSE Room S17 (12:00-13:00)**<br>
 *[Matthias Beestermoeller](http://beestermoeller.weebly.com/)* (Ludwig-Maximilians-University Munich).
 
-**December 15th, 2014 - MSE Room S19 (12:00-13:00)**<br>
+**December 15th, 2014 - MSE Room S17 (12:00-13:00)**<br>
 *[Sophie Piton](http://www.cepii.fr/CEPII/fr/page_perso/page_perso.asp?nom_complet=Sophie%20Piton)* (Paris School of Economics).
+
+**January 12th, 2015 - MSE Room S19 (12:00-13:00)**<br>
+*[Damien Dussaux](http://www.cerna.ensmp.fr/index.php/fr/equipe-menugauchecerna-285/262?task=view)* (CERNA / MINES ParisTech).
+
+**January 26th, 2015 - MSE Room S19 (12:00-13:00)**<br>
+*[Farshad Ravasan](http://www.parisschoolofeconomics.eu/en/ranjbar-ravasan-farshad/)* (Paris School of Economics).
+
+**February 9th, 2015 - MSE Room S19 (12:00-13:00)**<br>
+*[Anna Ray](https://sites.google.com/site/annazagrajczukray/home)* (Paris School of Economics / Sciences Po).
+
+**February 23rd, 2015 - MSE Room S19 (12:00-13:00)**<br>
+*[Walter Steingress](https://www.webdepot.umontreal.ca/Usagers/steingrw/MonDepotPublic/)* (Banque de France / Université de Montréal).
 
 
 ##Recent Seminars
 
-**October 6th, 2014 - MSE Room S19 (12:00-13:00)**<br>
+**October 6th, 2014 - MSE Room S17 (12:00-13:00)**<br>
 *[Justine Pedrono](https://sites.google.com/site/justinepedrono/)* (Aix Marseille School of Economics):<br>
 "Banking leverage with two funding currencies".
 
-**September 29th, 2014 - MSE Room S19 (12:00-13:00)**<br>
+**September 29th, 2014 - MSE Room S17 (12:00-13:00)**<br>
 *[Meina Xu](http://www.parisschoolofeconomics.eu/fr/xu-meina/)* (Paris School of Economics):<br>
 "Intermediaries and quality sorting in China".
 
-**September 22nd, 2014 - MSE Room S19 (12:00-13:00)**<br>
+**September 22nd, 2014 - MSE Room S17 (12:00-13:00)**<br>
 *[Anna Ray](https://sites.google.com/site/annazagrajczukray/home)* (Paris School of Economics / Sciences Po):<br>
 "The Anatomy of Foreign Direct Investment — World Greenfield and Merger & Acquisition Flows".
 
